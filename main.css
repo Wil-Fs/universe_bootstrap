@@ -1,0 +1,101 @@
+body {
+    overflow-x: hidden;
+    background-image: linear-gradient(to top, #000, #02080f, #07000e, #8a2c02);
+}
+
+header {
+    color: #8a2c02;
+    background-color: none;
+}
+
+
+header {
+    text-align: center;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#000,#000, #02080f, #07000e, #8a2c02, #d75404, #8a2c02);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#pag-title {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container-slide{
+    height: 700px;
+    overflow-y: hidden;
+}
+
+.container-slide img {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-card .card {
+    margin: 10px;
+}
+
+.container-card img {
+    height: 75vh;
+}
+
+.card {
+    border:1px solid #8a2c02;
+    color: #d75404;
+}
+
+footer {
+    font-size: 72px;
+    background: -webkit-linear-gradient(bottom,#000,#000,#000,#000,#000,#8a2c02,#8a2c02,#000, #d75404, #d75404);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer {
+    padding: 3.5% 0;
+    text-align: center;
+    background-color: none;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+
+    .container-slide{
+        height: 400px;
+        overflow-y: hidden;
+    }
+
+    .container-slide img {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .container-card .card {
+        margin: 25px;
+    }
+
+    .container-card img {
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .container-slide{
+        height: 400px;
+        overflow-y: hidden;
+    }
+
+    .container-slide img {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .container-card .card {
+        margin: 25px;
+    }
+
+    .container-card img {
+        height: 40vh;
+    }
+}
